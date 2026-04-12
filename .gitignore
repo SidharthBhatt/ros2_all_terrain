@@ -1,0 +1,27 @@
+# ROS build outputs
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# Python / editor junk
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.vscode/
+**/.DS_Store
+**/*.swp
+
+# Compiled binaries
+**/*.so
+**/*.o
+**/*.a
+
+# Large models / vocab / generated assets
+**/ORBvoc.txt
+**/shape_predictor_68_face_landmarks.dat
+**/frozen_inference_graph.pb
+**/road_following_model_trt.pth
+**/road_following_model_trt.pth.origin
