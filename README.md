@@ -9,9 +9,9 @@ Steps to Connect to the Robot:
 1. Ensure the robot is on by switching all switches on 
 2. Wait 2-3 minutes for the robot to boot up 
 3. connect to the ROSMASTER Wifi (password yahboom)
-4. ssh into the robot (ssh jetson@192.168.1.11), the IP is displayed on the robots screen 
-Password is yahboom 
-5. (Optional) you can connect to wifi by turning on your hotspot on your phone and connecting it over USB to your computer, this is the best solution I have found so far 
+4. ssh into the robot (ssh jetson@192.168.1.11)
+5. the IP is displayed on the robots screen and the Password is yahboom 
+6. (Optional) you can connect to wifi by turning on your hotspot on your phone and connecting it over USB to your computer, this is the best solution I have found so far 
 
 
 Other Details: 
