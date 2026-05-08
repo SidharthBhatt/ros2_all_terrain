@@ -4,6 +4,15 @@ Background:
 
 One of the goals of the oat's center is to have a fully automated farm system with a tractor, drones, ground sensors, etc all speaking together. In order to facilitate this, they all need to communicate together. The current plan is to use ROS, which is a popular robotics library. Before coding the tractor, we are planning to use the mini robot as a testbed to explore ROS. We want to be able to scan our surroundings, pathfind, and complete complex tasks using the robot. We plan to create demos that showcase the robot's functionality. Then once we understand how to do that, we can move onto the Polaris Ranger. So far, I have tried to emulate the robot in simulation, constructed the robot, become familiar with its code, created a repository, and I am in the process of making it move with code. One of the example demos we want to complete is making the robot scan the lab area, and go from one side to the other.
 
+Video on How to Charge the Robot: 
+
+https://youtube.com/shorts/ynTDrik55YA
+
+- find the power cable and plug it into the black connector
+- the battery can be charging and also supply power to robot at same time (has two outputs)
+- however don't charge while using 
+- use the right side switch to turn it on and off
+
 Steps to Connect to the Robot: 
 
 1. Ensure the robot is on by switching all switches on 
