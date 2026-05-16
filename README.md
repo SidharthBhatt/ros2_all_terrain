@@ -2,12 +2,12 @@ This is a NSF Iot4AG REU Project
 
 Background: 
 
-One of the goals of the oat's center is to have a fully automated farm system with a tractor, drones, ground sensors, etc all speaking together. In order to facilitate this, they all need to communicate together. The current plan is to use ROS, which is a popular robotics library. Before coding the tractor, we are planning to use the mini robot as a testbed to explore ROS. We want to be able to scan our surroundings, pathfind, and complete complex tasks using the robot. We plan to create demos that showcase the robot's functionality. Then once we understand how to do that, we can move onto the Polaris Ranger. So far, I have tried to emulate the robot in simulation, constructed the robot, become familiar with its code, created a repository, and I am in the process of making it move with code. One of the example demos we want to complete is making the robot scan the lab area, and go from one side to the other.
+One of the goals of the OAT's center is to have a fully automated farm system with a tractor, drones, ground sensors, etc all speaking together. In order to facilitate this, they all need to communicate together. The current plan is to use ROS, which is a popular robotics library. Before coding the tractor, we are planning to use the mini robot as a testbed to explore ROS. We want to be able to scan our surroundings, pathfind, and complete complex tasks using the robot. We plan to create demos that showcase the robot's functionality. Then once we understand how to do that, we can move onto the Polaris Ranger. So far, I have tried to emulate the robot in simulation, constructed the robot, become familiar with its code, created a repository, and I am in the process of making it move with code. One of the example demos we want to complete is making the robot scan the lab area, and go from one side to the other.
 
 Video on How to Charge the Robot & Turn it On: 
 
 https://youtube.com/shorts/ynTDrik55YA
-
+- robot located in the UAV Lab near elevator of the third floor of ABE
 - find the power cable and plug it into the black connector
 - the battery can be charging and also supply power to robot at same time (has two outputs)
 - however don't charge while using 
@@ -17,10 +17,9 @@ Steps to Connect to the Robot:
 
 1. Ensure the robot is on by switching all switches on 
 2. Wait 2-3 minutes for the robot to boot up 
-3. connect to the ROSMASTER Wifi (password yahboom)
-4. ssh into the robot (ssh jetson@192.168.1.11)
-5. the IP is displayed on the robots screen and the Password is yahboom 
-6. (Optional) you can connect to wifi by turning on your hotspot on your phone and connecting it over USB to your computer, this is the best solution I have found so far
+3. connect to the OATScenter wifi (passsword on the whiteboard on right side) 
+4. SSH into the robot using its IP displayed on the small screen (ssh jetson@192.168.100.53) 
+
 
 Tasks 
 - Redo the upload of the code from the robot's directory onto github. The one currently up doesn't have all the directories. When you need access to the github repo, ping me on slack, and i'll add you ASAP
