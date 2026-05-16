@@ -20,8 +20,17 @@ Steps to Connect to the Robot:
 3. connect to the ROSMASTER Wifi (password yahboom)
 4. ssh into the robot (ssh jetson@192.168.1.11)
 5. the IP is displayed on the robots screen and the Password is yahboom 
-6. (Optional) you can connect to wifi by turning on your hotspot on your phone and connecting it over USB to your computer, this is the best solution I have found so far 
+6. (Optional) you can connect to wifi by turning on your hotspot on your phone and connecting it over USB to your computer, this is the best solution I have found so far
 
+Tasks 
+- Redo the upload of the code from the robot's directory onto github. The one currently up doesn't have all the directories. When you need access to the github repo, ping me on slack, and i'll add you ASAP
+- Watch the yahboom tutorial videos and run their code to make the robot move 
+- Create a new development directory for our code
+  - Use their code to create a demonstration video and code on how to make the robot move in the development directory
+  - Show lines of code that can make it move in x, y, xy directions for a specified distance 
+  - Use their code to create a demonstration video and code on how to use the lidar to detect their surroundings
+  - Use their code to create a demonstration video and code on how to pathfind around the lab 
+    given a point in the lab, generate a path, avoid obstacles, and know where it is in the lab (localization) and reach the destination
 
 Other Details: 
 
