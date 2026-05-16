@@ -7,7 +7,7 @@ One of the goals of the OAT's center is to have a fully automated farm system wi
 Video on How to Charge the Robot & Turn it On: 
 
 https://youtube.com/shorts/ynTDrik55YA
-- robot located in the UAV Lab near elevator of the third floor of ABE
+- robot located in the ABE 3070 UAV lab
 - find the power cable and plug it into the black connector
 - the battery can be charging and also supply power to robot at same time (has two outputs)
 - however don't charge while using 
